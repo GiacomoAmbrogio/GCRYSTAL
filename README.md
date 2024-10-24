@@ -11,7 +11,7 @@ Both versions are available as CRYSTAL DEMO executables (limited to 12 atoms), a
 Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
 - [NVIDIA HPC SDK 23.9](https://developer.nvidia.com/nvidia-hpc-sdk-239-downloads)
 
-## Using GCYSTAL
+## Using GCRYSTAL
 To run the DEMO code the input file must be renamed “INPUT”, and the code must be executed in the directory of this file, as follows:
 ```
 cp test_quartz.d12 INPUT
