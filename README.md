@@ -6,3 +6,5 @@ The first version, GCRYSTAL_1.0, directly integrates CUDA math libraries for acc
 The second version, GCRYSTAL_2.0, is currently under development and involves a more extensive refactoring of the code. Its aim is to enhance the use of accelerated libraries by minimizing input/output operations and reducing frequent data transfers between the host and device. This version has not yet been thoroughly tested, and not all features are fully implemented.
 
 Both versions are available as CRYSTAL DEMO executables, along with the source code for the newly developed code. Additional details can be found in the relative sections below.
+
+## Prerequisites
