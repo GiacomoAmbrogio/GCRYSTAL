@@ -8,3 +8,5 @@ The second version, GCRYSTAL_2.0, is currently under development and involves a 
 Both versions are available as CRYSTAL DEMO executables, along with the source code for the newly developed code. Additional details can be found in the relative sections below.
 
 ## Prerequisites
+Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
+- [Tool 1]([https://link-to-tool](https://developer.nvidia.com/nvidia-hpc-sdk-239-downloads))
