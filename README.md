@@ -15,8 +15,9 @@ Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
 To run the DEMO code the input file must be renamed “INPUT”, and the code must be executed in the directory of this file, as follows:
 ```
 cp test_quartz.d12 INPUT
-mpirun -np (number of process between 1 and 4) /path/to/GCRYSTAL_X.0_executables < INPUT >& test_quartz.out &```
+mpirun -np (number of process between 1 and 4) /path/to/GCRYSTAL_X.0_executables < INPUT >& test_quartz.out &
+```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License
