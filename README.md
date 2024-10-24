@@ -9,4 +9,4 @@ Both versions are available as CRYSTAL DEMO executables, along with the source c
 
 ## Prerequisites
 Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
-- [NVIDIA HPC SDK 23.9]([https://developer.nvidia.com/nvidia-hpc-sdk-239-downloads])
+- [NVIDIA HPC SDK 23.9](https://link-to-tool)
