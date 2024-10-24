@@ -10,3 +10,7 @@ Both versions are available as CRYSTAL DEMO executables (limited to 12 atoms), a
 ## Prerequisites
 Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
 - [NVIDIA HPC SDK 23.9](https://developer.nvidia.com/nvidia-hpc-sdk-239-downloads)
+
+## Using GCYSTAL
+To run the DEMO code the input file must be renamed “INPUT”, and the code must be executed in the directory of this file, as follows:
+``` mpirun -np (number of process to run between 1 and 4) 
