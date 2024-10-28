@@ -1,4 +1,4 @@
-# GCRYSTAL_Demo
+# GCRYSTAL
 This repository contains two development versions of the CRYSTAL code aimed at incorporating GPU support to improve efficiency on modern HPC architectures for ab initio solid-state materials simulations.
 
 The first version, GCRYSTAL_1.0, directly integrates CUDA math libraries for accelerated linear algebra operations, building on the standard parallel version of the CRYSTAL code (PCRYSTAL). GCRYSTAL_1.0 has undergone extensive testing on accelerated HPC systems.
