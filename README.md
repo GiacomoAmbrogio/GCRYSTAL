@@ -1,11 +1,11 @@
 # GCRYSTAL
-This repository contains a first release of the CRYSTAL code aimed at incorporating GPU support to improve efficiency on modern HPC architectures for ab initio solid-state materials simulations.
+This repository contains a first development release of the CRYSTAL code aimed at incorporating GPU support to improve efficiency on modern HPC architectures for ab initio solid-state materials simulations.
 
 Two versions are provided. The first version, GCRYSTAL_1.0, directly integrates CUDA math libraries for accelerated linear algebra operations, building on the standard parallel version of the CRYSTAL code (PCRYSTAL). GCRYSTAL_1.0 has undergone extensive testing on accelerated HPC systems.
 
-The second version, GCRYSTAL_2.0, is currently under development and involves a more extensive refactoring of the code. Its aim is to enhance the use of accelerated libraries by minimizing input/output operations and reducing frequent data transfers between the host and device. This version has to be regarded as an alpha release, as has been tested, and not all features are fully implemented.
+The second version, GCRYSTAL_2.0, is currently under development and involves a more extensive refactoring of the code. Its aim is to enhance the use of accelerated libraries by minimizing input/output operations and reducing frequent data transfers between the host and device. This version has to be regarded as an alpha release, as it has undergone limited testing, and not all features are fully implemented.
 
-Both versions are available as executables, along with the source code for the newly developed code. Additional details can be found in the relative sections below.
+Both versions are available as executables, along with the source code for the newly developed code, and have limitations regarding the number of MPI processes and number of atoms in the unit cell. Additional details can be found in the relative sections below.
 
 ## Prerequisites
 Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
