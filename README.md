@@ -7,6 +7,9 @@ The second version, GCRYSTAL_2.0, is currently under development and involves a 
 
 Both versions are available as executables, along with the source code for the newly developed code, and have limitations regarding the number of MPI processes and number of atoms in the unit cell. Additional details can be found in the relative sections below.
 
+##July 2025 Update
+The GCRYSTAL_2.0 version has receved an update (here GCRYSTAL_2.5), the code base is the same, but new features have been implemented: data memory storage options, construction of the density matrix on device, new k point distribution to processes. Also the code is now compatible with more advanced computational drivers, such as geometry optimization, molecular dynamics, frequencies calculaions, etc.
+
 ## Prerequisites
 Install NVIDIA HPC SDK 23.9 for Linux x86_64 architecture
 - [NVIDIA HPC SDK 23.9](https://developer.nvidia.com/nvidia-hpc-sdk-239-downloads)
